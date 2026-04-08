@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+
+/* Global */
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    /* Bỏ dấu chấm ở danh sách */
+}
+
+
+/* Header */
+
+header {
+    background: #35424a;
+    /* Màu nền xám đậm */
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+    /* Đường viền cam ở dưới cùng */
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    /* Bỏ gạch chân link */
+    text-transform: uppercase;
+    /* In hoa chữ */
+    font-size: 16px;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+    /* Căn chỉnh thanh menu cho cân đối với logo */
+}
+
+header .highlight,
+header .current a {
+    color: #e8491d;
+    /* Màu cam cho chữ "Ngoc Minh" và menu đang được chọn (Trang chủ) */
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #cccccc;
+    /* Đổi màu khi di chuột qua link */
+    font-weight: bold;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #e8491d;
+    text-align: center;
+}
