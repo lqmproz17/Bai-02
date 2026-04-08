@@ -28,20 +28,16 @@ ul {
 
 header {
     background: #35424a;
-    /* Màu nền xám đậm */
     color: #ffffff;
     padding-top: 30px;
     min-height: 70px;
     border-bottom: #e8491d 3px solid;
-    /* Đường viền cam ở dưới cùng */
 }
 
 header a {
     color: #ffffff;
     text-decoration: none;
-    /* Bỏ gạch chân link */
     text-transform: uppercase;
-    /* In hoa chữ */
     font-size: 16px;
 }
 
@@ -62,19 +58,16 @@ header #branding h1 {
 header nav {
     float: right;
     margin-top: 10px;
-    /* Căn chỉnh thanh menu cho cân đối với logo */
 }
 
 header .highlight,
 header .current a {
     color: #e8491d;
-    /* Màu cam cho chữ "Ngoc Minh" và menu đang được chọn (Trang chủ) */
     font-weight: bold;
 }
 
 header a:hover {
     color: #cccccc;
-    /* Đổi màu khi di chuột qua link */
     font-weight: bold;
 }
 
