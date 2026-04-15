@@ -102,7 +102,6 @@ header a:hover {
 }
 
 
-/* Lớp phủ làm tối ảnh nền để chữ rõ hơn */
 
 #showcase::after {
     content: "";
