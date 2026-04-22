@@ -216,37 +216,3 @@ footer{
     width: 100%;
   }
 }
-@media(max-width: 768px){
-
-  /* Ẩn menu mặc định */
-  header nav{
-    display: none;
-    width: 100%;
-    background: #35424a;
-  }
-
-  /* Tạo icon ☰ giả */
-  header::before{
-    content: "☰";
-    display: block;
-    font-size: 28px;
-    text-align: right;
-    padding: 10px 20px;
-    cursor: pointer;
-  }
-
-  /* Khi hover vào header thì hiện menu */
-  header:hover nav{
-    display: block;
-  }
-
-  header nav ul{
-    text-align: center;
-  }
-
-  header nav li{
-    display: block;
-    padding: 10px;
-    border-top: 1px solid #444;
-  }
-}
